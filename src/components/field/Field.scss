@@ -1,0 +1,23 @@
+.weather__input {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  color:rgba(255, 255, 255, 1);
+  font-family: 'Publica Sans';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather__location {
+  display: flex;
+  justify-content: center;
+  font-family: 'Publica Sans';
+  font-size: 15px;
+  font-weight: 300;
+  color:rgba(255, 255, 255, 1);
+  margin-bottom: 100px;
+}

@@ -1,0 +1,45 @@
+.weather__city,
+.weather__date,
+.weather__deg,
+.weather__name {
+  display: flex;
+  justify-content: center;
+  font-family: 'Publica Sans';
+  font-weight: 300;
+  color:rgba(255, 255, 255, 1);
+}
+
+.weather__city {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.weather__date {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.weather__deg {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.weather__name {
+  font-family: 'Bahij SultanNahia';
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.weather__add__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__logo {
+  font-family: 'Bahij SultanNahia';
+  font-size: 50px;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 1);
+}
