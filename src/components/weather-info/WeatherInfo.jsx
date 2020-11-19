@@ -4,7 +4,6 @@ import './WeatherInfo.scss'
 import PropTypes from 'prop-types'
 
 const WeatherInfo = ({ weather }) => {
-  console.log(weather)
   return (
     <>
       {weather.main !== undefined
