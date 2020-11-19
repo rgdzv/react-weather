@@ -1,40 +1,48 @@
 .weather__content {
   min-width: 100vw;
   min-height: 100vh;
-  background: url('./img/back.jpg') center no-repeat;
+  background: url('./img/back.jpg') center center no-repeat;
   background-size: cover;
   transition: background .2s ease;
 
   &.clouds {
-    background: url('./img/mainclouds.jpg') center no-repeat;
+    background: url('./img/mainclouds.jpg') center center no-repeat;
+    background-size: cover;
   }
 
   &.clear {
-    background: url('./img/sunny.jpg') center no-repeat;
+    background: url('./img/sunny.jpg') center center no-repeat;
+    background-size: cover;
   }
 
   &.mist {
-    background: url('./img/mist.jpg') center no-repeat;
+    background: url('./img/mist.jpg') center center no-repeat;
+    background-size: cover;
   }
 
   &.fog {
-    background: url('./img/mist.jpg') center no-repeat;
+    background: url('./img/mist.jpg') center center no-repeat;
+    background-size: cover;
   }
 
   &.rain {
-    background: url('./img/rain.jpg') center no-repeat;
+    background: url('./img/rain.jpg') center center no-repeat;
+    background-size: cover;
   }
 
   &.thunderstorm {
-    background: url('./img/thunderstorm.jpg') center no-repeat;
+    background: url('./img/thunderstorm.jpg') center center no-repeat;
+    background-size: cover;
   }
 
   &.drizzle {
-    background: url('./img/drizzle.jpg') center no-repeat;
+    background: url('./img/drizzle.jpg') center center no-repeat;
+    background-size: cover;
   }
 
   &.snow {
     background: url('./img/snow.jpg') center no-repeat;
+    background-size: cover;
   }
 
   .error {

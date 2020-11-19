@@ -7,7 +7,7 @@ export const getWeather = (location) => {
   return (dispatch) => {
     dispatch(getWeatherRequest())
     axios
-      .get(`http://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${APIKEY}`)
+      .get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${APIKEY}`)
       .then((res) => {
         const weather = res.data
         dispatch(getWeatherSuccess(weather))
