@@ -19,6 +19,7 @@
 ## Installation
 
 1. Sign up on https://openweathermap.org to get your API key
+
 2. Download the repo with:
 ```
 $ git clone https://github.com/rgdzv/react-weather.git
